@@ -1,13 +1,27 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather</title>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="API.js" type="text/javascript" defer></script>
+    <script src="app.js" type="text/javascript" defer></script>
 </head>
 <body>
-
+    <div class="page">
+        <div class="enter">
+            <h1>Weather app</h1>
+            <form>
+            <input type="text" name="location" placeholder="Enter a location" id="location">
+            </form>
+        </div>
+        <div class="locations">
+        </div>
+    </div>
 </body>
 </html>
